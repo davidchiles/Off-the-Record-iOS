@@ -99,10 +99,10 @@
     
     CGRect frame = CGRectMake(0.0, 0.0, 320, 142);
 
-    chatHistoryTextView = [[DTAttributedTextView alloc] initWithFrame:frame];
+    /*chatHistoryTextView = [[DTAttributedTextView alloc] initWithFrame:frame];
 	chatHistoryTextView.textDelegate = self;
 	chatHistoryTextView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-	[self.view addSubview:chatHistoryTextView];
+	[self.view addSubview:chatHistoryTextView];*/
     
     if(!rawChatHistory)
         rawChatHistory = [[NSMutableString alloc] init];
